@@ -1,0 +1,1422 @@
+/*<<<<<<<<<from 360px to 414px>>>>>>>>>>>>>*/
+@media screen and (min-width: 360px) and (max-width: 414px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  /*BODY*/
+  h1 {
+    margin-right: 22px;
+    margin-top: 50px;
+    padding: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    justify-content: center;
+    line-height: auto;
+    color: #000;
+  }
+
+  /*COVER*/
+  /*Video element*/
+  .fullscreen-video-wrap video {
+    /*this configuration allows to auto-adjust video positions*/
+    left: 49.9%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+
+  .cover-content img {
+    width: 90%;
+    margin: 0 1rem;
+    padding: 0;
+  }
+  .portada{
+    height: 100%;
+    width: 100%;
+  }
+
+  .button {
+    background: #8bb336;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 80px;
+  }
+
+  .service_button {
+    display: none;
+  }
+
+  .service_button2 {
+    background: #8bb336;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 80px;
+    display: inline-block;
+  }
+
+  .service_button2 {
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
+  }
+
+  .top-buttons {
+    margin-top: 1rem;
+  }
+
+  /*NAVBAR*/
+  .normal_menu {
+    display: none;
+  }
+
+  /*MOBILE MENU*/
+  .toggle {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    background: #1d2020;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+  }
+
+  .toggle #logo {
+    width: 50px;
+    background: #1d2020;
+    float: left;
+    padding: 0;
+  }
+
+  #times {
+    font-size: 35px;
+    position: fixed;
+    right: 25px;
+    top: 15px;
+  }
+
+  .mobile_menu li,
+  .hamburguer-btn {
+    width: 100%;
+    list-style-type: none;
+    font-size: 35px;
+  }
+
+  .hamburguer-btn {
+    position: relative;
+  }
+
+  .hamburguer-btn .fa-bars,
+  .hambueguer-btn .fa-times {
+    position: fixed;
+    right: 25px;
+    top: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 35px;
+  }
+
+  .mobile_menu li a {
+    text-align: center;
+    display: none;
+  }
+
+  .mobile_menu li a.active {
+    display: block;
+  }
+
+  /*SECTIONS*/
+  .section {
+    display: block;
+    margin: 1rem 1.5rem;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  .section2 .sub-section {
+    margin-left: 2rem;
+  }
+
+  /*ABOUT SECTION*/
+  .founders {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .sub-section {
+    width: 325px;
+    padding: 10px 0px;
+    justify-content: center;
+  }
+
+  .grid-about {
+    display: grid;
+    grid-template-columns: 90%;
+    padding: 1rem;
+  }
+
+  .grid-about-item {
+    width: 95%;
+    height: auto;
+    text-align: justify;
+    margin-top: 0.5rem;
+    padding: 0;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+  }
+
+  /*SERVICES SECTION*/
+  .grid-services {
+    display: block;
+    grid-template-columns: 100%;
+    padding: auto;
+    margin: 0 10px 0 5px;
+  }
+
+  .grid-services-item {
+    width: 85%;
+    height: auto;
+    font-size: 1.2rem;
+  }
+
+  i.icono {
+    margin: 1.5rem 0 0.75rem 0;
+  }
+
+  /*CONTACT SECTION*/
+  .section2 {
+    display: block;
+    margin: 0 -4rem;
+    padding: none;
+    justify-content: center;
+  }
+
+  .form-control {
+    width: 18rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/*<<<<<<<<<415px-478px>>>>>>>>>*/
+@media screen and (min-width: 415px) and (max-width: 478px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  /*BODY*/
+  h1 {
+    margin-right: 22px;
+    margin-top: 50px;
+    padding: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    justify-content: center;
+    line-height: auto;
+    color: #000;
+  }
+
+  /*COVER*/
+  /*Video element*/
+  .fullscreen-video-wrap video {
+    /*this configuration allows to auto-adjust video positions*/
+    left: 49.9%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+
+  .cover-content img {
+    width: 90%;
+    margin: 0 1rem;
+    padding: 0;
+  }
+
+  .portada{
+    height: 100%;
+    width: 100%;
+  }
+
+  .button {
+    background: #8bb336;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 80px;
+  }
+
+  .service_button {
+    display: none;
+  }
+
+  .service_button2 {
+    background: #8bb336;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 80px;
+    display: inline-block;
+  }
+
+  .service_button2 {
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
+  }
+
+  .top-buttons {
+    margin-top: 1rem;
+  }
+
+  /*NAVBAR*/
+  .normal_menu {
+    display: none;
+  }
+
+  /*MOBILE MENU*/
+  .toggle {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    background: #1d2020;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+  }
+
+  .toggle #logo {
+    width: 55px;
+    background: #1d2020;
+    float: left;
+    padding: 0;
+  }
+
+  #times {
+    font-size: 43px;
+    position: fixed;
+    right: 25px;
+    top: 15px;
+  }
+
+  .mobile_menu li,
+  .hamburguer-btn {
+    width: 100%;
+    list-style-type: none;
+    font-size: 55px;
+  }
+
+  .hamburguer-btn {
+    position: relative;
+  }
+
+  .hamburguer-btn .fa-bars,
+  .hambueguer-btn .fa-times {
+    position: fixed;
+    right: 25px;
+    top: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 35px;
+  }
+
+  .mobile_menu li a {
+    text-align: center;
+    display: none;
+  }
+
+  .mobile_menu li a.active {
+    display: block;
+  }
+
+  /*SECTIONS*/
+  .section {
+    display: block;
+    margin: 1rem 0.5rem;
+    padding: 0 1.5rem;
+    text-align: center;
+  }
+
+  .sub-section h1 {
+    margin-left: 1.8rem;
+  }
+
+  /*ABOUT SECTION*/
+  .founders {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .sub-section {
+    width: 100%;
+    padding: 1.5rem 0px;
+    justify-content: center;
+  }
+
+  .grid-about {
+    display: grid;
+    grid-template-columns: 90%;
+    padding: 1rem;
+  }
+
+  .grid-about-item {
+    width: 95%;
+    height: auto;
+    text-align: justify;
+    margin-top: 0.5rem;
+    padding: 0;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+  }
+
+  /*SERVICES SECTION*/
+  .grid-services {
+    display: block;
+    grid-template-columns: 100%;
+    padding: auto;
+    margin: 0 10px 0 5px;
+  }
+
+  .grid-services-item {
+    width: 85%;
+    height: auto;
+    font-size: 1.2rem;
+  }
+
+  i.icono {
+    margin: 1.5rem 0 0.75rem 0;
+  }
+
+  /*CONTACT SECTION*/
+  .section2 {
+    display: block;
+    margin: 0 -4rem;
+    padding: none;
+    justify-content: center;
+  }
+
+  .form-control {
+    width: 20rem;
+    margin-bottom: 2rem;
+  }
+
+  .form {
+    margin: 3rem 0;
+    padding: 0 3rem;
+  }
+}
+
+/*<<<<<<<<<479px-780px>>>>>>>>>*/
+@media screen and (min-width: 479px) and (max-width: 780px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  body #s_button2,
+  body #c_button2 {
+    scroll-behavior: smooth;
+  }
+
+  /*BODY*/
+  h1 {
+    margin-right: 22px;
+    margin-top: 50px;
+    padding: auto;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    line-height: auto;
+    color: #000;
+    margin-left: 2.5rem;
+    font-size: 3rem;
+  }
+
+  /*COVER*/
+  /*Video element*/
+  .fullscreen-video-wrap video {
+    /*this configuration allows to auto-adjust video positions*/
+    left: 49.9%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+
+  .portada{
+    height: 100%;
+    width: 100%;
+  }
+
+  .cover-content img {
+    width: 90%;
+    margin: 0 1rem;
+    padding: 0;
+  }
+
+  .service_button {
+    display: none;
+  }
+
+  .service_button2 {
+    background: #8bb336;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 80px;
+    display: inline-block;
+  }
+
+  .service_button2 {
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
+  }
+
+  .top-buttons {
+    margin-top: 1rem;
+  }
+
+  /*NAVBAR*/
+  .normal_menu {
+    display: none;
+  }
+
+  /*MOBILE MENU*/
+  .toggle {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    background: #1d2020;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+  }
+
+  .toggle #logo {
+    width: 60px;
+    background: #1d2020;
+    float: left;
+    padding: 0;
+  }
+
+  #times {
+    font-size: 45px;
+    position: fixed;
+    right: 25px;
+    top: 15px;
+  }
+
+  .mobile_menu li,
+  .hamburguer-btn {
+    width: 100%;
+    list-style-type: none;
+    font-size: 50px;
+  }
+
+  .hamburguer-btn {
+    position: relative;
+  }
+
+  .hamburguer-btn .fa-bars,
+  .hambueguer-btn .fa-times {
+    position: fixed;
+    right: 25px;
+    top: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 50px;
+  }
+
+  .mobile_menu li a {
+    text-align: center;
+    display: none;
+  }
+
+  .mobile_menu li a.active {
+    display: block;
+  }
+
+  /*SECTIONS*/
+  .section {
+    display: block;
+    margin: 1rem 0.5rem;
+    padding: 0 1.5rem;
+    text-align: center;
+  }
+
+  /*ABOUT SECTION*/
+  .founders {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .sub-section {
+    width: 100%;
+    padding: 1.5rem 0px;
+    justify-content: center;
+  }
+
+  .grid-about {
+    display: grid;
+    grid-template-columns: 85%;
+    padding: 1rem;
+    margin-left: 1.5rem;
+  }
+
+  .grid-about-item {
+    width: 95%;
+    height: auto;
+    text-align: justify;
+    margin-top: 0.5rem;
+    padding: 0;
+    margin-left: 9%;
+    font-size: 1.2rem;
+  }
+
+  /*SERVICES SECTION*/
+  .grid-services {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    padding: auto;
+    align-items: center;
+    margin-left: 7%;
+  }
+
+  .grid-services-item {
+    width: 100%;
+    height: auto;
+    font-size: 1.2rem;
+    padding: 2%;
+  }
+
+  i.icono {
+    margin: 1.5rem 0 0.75rem 0;
+  }
+
+  /*CONTACT SECTION*/
+  .section2 {
+    display: block;
+    margin: 1.5rem 0.5rem;
+    padding: 0.5rem;
+    justify-content: center;
+  }
+
+  .form {
+    margin: 1.5rem 0;
+    padding: 0;
+  }
+
+  .form-control {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+}
+
+/*cambiar animación scroll hasta el 780*/
+
+/*<<<<<<<<<781px-900>>>>>>>>>*/
+@media screen and (min-width: 781px) and (max-width: 900px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  /*BODY*/
+  h1 {
+    margin-right: 22px;
+    margin-top: 50px;
+    padding: auto;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    line-height: auto;
+    color: #000;
+    margin-left: 2.5rem;
+    font-size: 3rem;
+  }
+
+  /*COVER*/
+  /*Video element*/
+  .fullscreen-video-wrap video {
+    /*this configuration allows to auto-adjust video positions*/
+    left: 49.9%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+
+  .cover-content img {
+    width: 70%;
+    margin: 0 1rem;
+    padding: 0;
+  }
+
+  .portada{
+    height: 100%;
+    width: 100%;
+  }
+
+  .button2 {
+    background: #8bb336;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 80px;
+  }
+
+  .service_button2 {
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
+  }
+
+  .service_button {
+    display: none;
+  }
+  .top-buttons {
+    margin-top: 1rem;
+  }
+
+  /*NAVBAR*/
+  #logo {
+    padding: 10px 15px 2px;
+    width: 10%;
+  }
+
+  nav li {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .menu a {
+    display: block;
+    padding: 18px 16px;
+  }
+
+  /*SECTIONS*/
+  .section {
+    display: block;
+    margin: 1rem 0.5rem;
+    padding: 0 1.5rem;
+    text-align: center;
+  }
+
+  /*ABOUT SECTION*/
+  .founders {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .sub-section {
+    width: 100%;
+    padding: 1.5rem 0px;
+    justify-content: center;
+  }
+
+  .grid-about {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin-left: 2.5rem;
+  }
+
+  .grid-about-item {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    margin-left: 10%;
+    font-size: 1.2rem;
+  }
+
+  /*SERVICES SECTION*/
+  .grid-services {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    padding: auto;
+    align-items: center;
+    margin-left: 7%;
+  }
+
+  .grid-services-item {
+    width: 100%;
+    height: auto;
+    font-size: 1.2rem;
+    padding: 2%;
+  }
+
+  i.icono {
+    margin: 1.5rem 0 0.75rem 0;
+  }
+
+  /*CONTACT SECTION*/
+  .section2 {
+    display: block;
+    margin: 1.5rem 0.5rem;
+    padding: 0.5rem;
+    justify-content: center;
+  }
+
+  .form {
+    margin: 1.5rem 0;
+    padding: 0;
+  }
+
+  .form-control {
+    width: 85%;
+    margin-bottom: 2rem;
+  }
+}
+
+/*<<<<<<<<<901px - 950px>>>>>>>>>*/
+@media screen and (min-width: 901px) and (max-width: 950px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  /*BODY*/
+  h1 {
+    margin-right: 22px;
+    margin-top: 50px;
+    padding: auto;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    line-height: auto;
+    color: #000;
+    margin-left: 2.5rem;
+    font-size: 3rem;
+  }
+
+  /*COVER*/
+  /*Video element*/
+  .fullscreen-video-wrap video {
+    /*this configuration allows to auto-adjust video positions*/
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+
+  .cover-content img {
+    width: 65%;
+    margin: 0 1rem;
+    padding: 0;
+  }
+
+  .portada{
+    height: 100%;
+    width: 100%;
+  }
+
+
+  .button {
+    background: #8bb336;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 80px;
+  }
+
+  .service_button {
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
+  }
+
+  .top-buttons {
+    margin-top: 1rem;
+  }
+
+  /*NAVBAR*/
+  #logo {
+    padding: 6px 15px 2px;
+    width: 8%;
+  }
+
+  nav li {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .menu a {
+    display: block;
+    padding: 15px 16px;
+  }
+
+  /*SECTIONS*/
+  .section {
+    display: block;
+    margin: 1rem 0.5rem;
+    padding: 0 1.5rem;
+    text-align: center;
+  }
+
+  /*ABOUT SECTION*/
+  .founders {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .sub-section {
+    width: 100%;
+    padding: 1.5rem 0px;
+    justify-content: center;
+  }
+
+  .grid-about {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin-left: 2.5rem;
+  }
+
+  .grid-about-item {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    margin-left: 5%;
+    font-size: 1.2rem;
+  }
+
+  .grid-about-item p {
+    margin-top: 0.5rem;
+  }
+
+  /*SERVICES SECTION*/
+  .grid-services {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    padding: auto;
+    align-items: center;
+    margin-left: 5%;
+  }
+
+  .grid-services-item {
+    width: 100%;
+    height: auto;
+    font-size: 1.2rem;
+    padding: 2%;
+  }
+
+  i.icono {
+    margin: 1.5rem 0 0.75rem 0;
+  }
+
+  /*CONTACT SECTION*/
+  .section2 {
+    display: block;
+    margin: 1.5rem 0.5rem;
+    padding: 0.5rem;
+    justify-content: center;
+  }
+
+  .form {
+    margin: 1.5rem 0;
+    padding: 0;
+  }
+
+  .form-control {
+    width: 85%;
+    margin-bottom: 2rem;
+  }
+}
+
+/*<<<<<<<<<951px - 985px>>>>>>>>>*/
+@media screen and (min-width: 951px) and (max-width: 985px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  /*BODY*/
+  h1 {
+    margin-right: 22px;
+    margin-top: 50px;
+    padding: auto;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    line-height: auto;
+    color: #000;
+    margin-left: 2.5rem;
+    font-size: 3rem;
+  }
+
+  /*COVER*/
+  /*Video element*/
+  .fullscreen-video-wrap video {
+    /*this configuration allows to auto-adjust video positions*/
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+
+  .cover-content img {
+    width: 70%;
+    margin: 0 1rem;
+    padding: 0;
+  }
+
+  .portada{
+    height: 100%;
+    width: 100%;
+  }
+
+
+  .button {
+    background: #8bb336;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 80px;
+  }
+
+  .service_button {
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
+  }
+
+  .top-buttons {
+    margin-top: 1rem;
+  }
+
+  /*NAVBAR*/
+  #logo {
+    padding: 8px 15px 2px;
+    width: 8%;
+  }
+
+  nav li {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .menu a {
+    display: block;
+    padding: 15px 16px;
+  }
+
+  /*SECTIONS*/
+  .section {
+    display: block;
+    margin: 1rem 0.5rem;
+    padding: 0 1.5rem;
+    text-align: center;
+  }
+
+  /*ABOUT SECTION*/
+  .founders {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .sub-section {
+    width: 100%;
+    padding: 1.5rem 0;
+    justify-content: center;
+  }
+
+  .grid-about {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin-left: 2.5rem;
+  }
+
+  .grid-about-item {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    margin-top: 0.5rem;
+    padding: 2rem;
+    margin-left: 5%;
+    font-size: 1.2rem;
+  }
+
+  .grid-about-item p {
+    margin-top: 0.5rem;
+  }
+
+  /*SERVICES SECTION*/
+  .grid-services {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    padding: auto;
+    align-items: center;
+    margin-left: 5%;
+  }
+
+  .grid-services-item {
+    width: 100%;
+    height: auto;
+    font-size: 1.2rem;
+    padding: 2%;
+  }
+
+  i.icono {
+    margin: 1.5rem 0 0.75rem 0;
+  }
+
+  /*CONTACT SECTION*/
+  .section2 {
+    display: block;
+    margin: 1.5rem 0.5rem;
+    padding: 0.5rem;
+    justify-content: center;
+  }
+
+  .form {
+    margin: 1.5rem 0;
+    padding: 0;
+  }
+
+  .form-control {
+    width: 85%;
+    margin-bottom: 2rem;
+  }
+}
+
+/*<<<<<<<<<986px - 1290px>>>>>>>>>*/
+@media screen and (min-width: 986px) and (max-width: 1290px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  /*BODY*/
+  h1 {
+    margin-right: 22px;
+    margin-top: 50px;
+    padding: auto;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    line-height: auto;
+    color: #000;
+    margin-left: 2.5rem;
+    font-size: 3rem;
+  }
+
+  /*COVER*/
+  /*Video element*/
+  .fullscreen-video-wrap video {
+    /*this configuration allows to auto-adjust video positions*/
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+
+  .cover-content img {
+    width: 55%;
+    margin: 0 1rem;
+    padding: 0;
+  }
+
+  .portada{
+    height: 100%;
+    width: 100%;
+  }
+
+  .service_button2 {
+    display: none;
+  }
+
+  .button {
+    background: #8bb336;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 80px;
+  }
+
+  .service_button {
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
+  }
+
+  .top-buttons {
+    margin-top: 1rem;
+  }
+
+  /*NAVBAR*/
+  #logo {
+    padding: 6px 15px 2px;
+    width: 8%;
+  }
+
+  nav li {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .menu a {
+    display: block;
+    padding: 15px 16px;
+  }
+
+  /*SECTIONS*/
+  .section {
+    display: block;
+    margin: 1rem 0.5rem;
+    padding: 0 1.5rem;
+    text-align: center;
+  }
+
+  /*ABOUT SECTION*/
+  .founders {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .sub-section {
+    width: 100%;
+    padding: 1.5rem 0;
+    justify-content: center;
+  }
+
+  .grid-about {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin-left: 2.5rem;
+  }
+
+  .grid-about-item {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    margin-top: 0.5rem;
+    padding: 2rem;
+    margin-left: 5%;
+    font-size: 1.5rem;
+  }
+
+  .grid-about-item p {
+    margin-top: 0.5rem;
+  }
+
+  /*SERVICES SECTION*/
+  .grid-services {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    padding: auto;
+    align-items: center;
+    margin-left: 5%;
+  }
+
+  .grid-services-item {
+    width: 100%;
+    height: auto;
+    font-size: 1.2rem;
+    padding: 2%;
+  }
+
+  i.icono {
+    margin: 1.5rem 0 0.75rem 0;
+  }
+
+  /*CONTACT SECTION*/
+  .section2 {
+    display: block;
+    margin: 1.5rem 0.5rem;
+    padding: 0.5rem;
+    justify-content: center;
+  }
+
+  .form {
+    margin: 1.5rem 0;
+    padding: 0;
+  }
+
+  .form-control {
+    width: 85%;
+    margin-bottom: 2rem;
+  }
+}
+
+/*<<<<<<<<<1290px - 1366px>>>>>>>>>*/
+@media screen and (min-width: 1290px) and (max-width: 1366px) {
+  /*Cover*/
+  .cover-content img {
+    width: 35%;
+    margin: 0 1rem;
+    padding: 1rem;
+  }
+  .portada{
+    height: 100%;
+    width: 100%;
+  }
+
+  /*NAVBAR*/
+  #logo {
+    padding: 8px 15px 2px;
+    width: 5.5%;
+  }
+
+  nav li {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .menu a {
+    display: block;
+    font-size: 1.2rem;
+    padding: 16px;
+  }
+
+  /*cover*/
+  .service_button2 {
+    display: none;
+  }
+
+  /*ABOUT SECTION*/
+  .grid-about-item {
+    width: 80%;
+    height: auto;
+    font-size: 1.3rem;
+    text-align: justify;
+    margin-top: 2rem;
+    padding: auto;
+    margin: auto;
+  }
+
+  /*SERVICIOS*/
+  .grid-services-item {
+    width: 85%;
+    height: auto;
+    font-size: 1.3rem;
+    text-align: justify-all;
+    padding: auto;
+    margin: auto;
+  }
+
+  .G-service {
+    padding-bottom: 2.1rem;
+  }
+
+  /*CONTACT SECTION*/
+  .section2 .sub-section {
+    display: block;
+    margin: 1.5rem 0.5rem;
+    padding: 0.5rem;
+    justify-content: center;
+    min-height: 10%;
+  }
+
+  .form {
+    margin: 1.5rem 0;
+    padding: 0;
+  }
+
+  .form-control {
+    width: 55%;
+    margin-bottom: 2rem;
+  }
+
+  /*FOOTER*/
+
+  footer {
+    text-align: center;
+    background: #1d2020;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+  }
+
+  footer a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 1rem 0 1rem;
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+
+  i.contact-icon {
+    font-size: 1.4rem;
+    color: #8bb336;
+    float: center;
+  }
+
+  i.contact-icon:hover {
+    color: #fff;
+  }
+
+  .copyright {
+    float: center;
+    color: #fff;
+    padding: 0 0 1rem 0;
+    margin: 0;
+    font-size: 0.8rem;
+  }
+}
+
+/*<<<<<<<<<1367px to more>>>>>>>>>*/
+@media screen and (min-width: 1367px) {
+  /*Cover*/
+  .cover-content img {
+    width: 35%;
+    margin: 0 1rem;
+    padding: 1rem;
+  }
+
+  .portada{
+    height: 100%;
+    width: 100%;
+  }
+
+
+  /*NAVBAR*/
+  #logo {
+    padding: 8px 15px 2px;
+    width: 4.2%;
+  }
+
+  nav li {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .menu a {
+    display: block;
+    font-size: 1.2rem;
+    padding: 19px 16px;
+  }
+}
