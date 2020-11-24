@@ -431,7 +431,7 @@ i.contact-icon:hover {
 /*TO TOP BUTTON*/
 .top {
   display: none;
-  bottom: 5rem;
+  bottom: 0;
   right: 0;
   background: #8bb336;
   color: #fff;
