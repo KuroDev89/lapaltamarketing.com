@@ -1,0 +1,457 @@
+/*Whole site*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/*BODY*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  color: #000;
+  background-color: #fff;
+ overflow-x: hidden;
+}
+
+h1 {
+  margin: auto;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  line-height: auto;
+  color: #000;
+}
+
+/*Video Header*/
+.v-cover {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+  z-index: 3;
+}
+
+.fullscreen-video-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/*Video element*/
+.fullscreen-video-wrap video {
+  /*this configuration allows to auto-adjust video positions*/
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.portada {
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+/*fb chat*/
+.fb-root,
+.fb_dialog,
+.fb_dialog_advanced,
+.fb_shrink_active {
+  right: initial !important;
+  left: 18pt;
+  z-index: 9999999 !important;
+}
+
+.fb-customerchat,
+.fb_invisible_flow,
+.fb_iframe_widget iframe {
+  right: initial !important;
+  left: 18pt !important;
+}
+
+/*Header Content*/
+.cover-content {
+  display: block;
+  padding-bottom: 5%;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.cover-content img {
+  width: 40%;
+}
+
+.top-buttons {
+  margin-top: 3rem;
+}
+
+.button {
+  background: #8bb336;
+  color: #fff;
+  border: 3px solid #8bb336;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  margin: 1rem 1rem;
+  text-decoration: none;
+  border-radius: 80px;
+}
+
+.service_button {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.service_button2 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: none;
+}
+
+/*Main buttons hover effect*/
+.service_button:hover {
+  background-color: transparent;
+  border: 3px solid #fff;
+}
+
+.service_button2:hover {
+  background-color: transparent;
+  border: 3px solid #fff;
+}
+
+/*main buttons 2*/
+.button2 {
+  background: #8bb336;
+  color: #fff;
+  border: 3px solid #8bb336;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  margin: 1rem 1rem;
+  text-decoration: none;
+  border-radius: 80px;
+  z-index: -5;
+}
+
+/*NAVBAR*/
+
+.sticky {
+  /*this class sets an element in a fixed position*/
+  -webkit-box-position: sticky; /* Safari */
+  -moz-box-position: sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #1d2020;
+}
+
+#logo {
+  padding: 6px 15px 2px;
+  width: 5%;
+}
+
+nav li {
+  float: right;
+  padding-right: 10px;
+}
+
+.menu a {
+  color: #fff;
+  text-align: left;
+  padding: 19px 16px 0 16px;
+  text-decoration: none;
+  position: sticky;
+  border-color: none;
+  font-size: 20px;
+}
+
+/* Menu bar elements hover effect*/
+.menu:hover a {
+  border: none;
+  color: #8bb336;
+}
+
+/*MOBILE MENU*/
+.toggle {
+  display: none;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+/*SECTIONS*/
+.section {
+  display: inline-block;
+  margin: 6rem 4rem 6rem 4rem;
+  padding: 0 3rem;
+  justify-content: center;
+}
+
+.sub-section {
+  width: 100%;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+/*ABOUT SECTION*/
+
+.founders {
+  width: 100%;
+  height: auto;
+  margin: 3rem 0 0 3rem;
+}
+
+.grid-about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: auto;
+}
+
+.grid-about-item {
+  width: 80%;
+  height: auto;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin-top: 2rem;
+  padding: auto;
+  margin: auto;
+}
+
+/*SERVICES SECTION*/
+.grid-services {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: auto;
+  margin: auto;
+}
+
+.grid-services-item {
+  width: 85%;
+  height: auto;
+  font-size: 1.5rem;
+  text-align: justify-all;
+  padding: auto;
+  margin: auto;
+}
+
+.services i:hover {
+  border-color: #8bb336;
+  color: #8bb336;
+  transform: scale(1.3);
+  box-shadow: 0 0 25px #8bb336;
+  align-items: center;
+}
+
+i.icono {
+  font-size: 5rem;
+  width: 8rem;
+  margin: 3rem 0 1.5rem 0;
+  padding: 1.5rem 0;
+  border-radius: 50%;
+  color: #8bb336;
+  transition: 0.7s;
+  text-align: center;
+}
+
+.servcice-description {
+  float: center;
+  width: 100%;
+  text-align: justify;
+  padding: 1rem 1.5rem;
+}
+
+/*PORTAFOLIO SECTION*/
+.customer {
+  margin: 2rem 2.5rem;
+  display: inline-block;
+}
+
+
+
+.img {
+  border-radius: 50%;
+  display: flex;
+  flex: 0 0 150px;
+  height: 14rem;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 14rem;
+}
+
+.img img {
+  height: 100%;
+}
+
+.img_overlay {
+  align-items: center;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  position: absolute;
+  transition: 0.5s ease-in-out;
+  z-index: 1;
+  background-color: #8bb336;
+  color: #fff;
+  font-size: 24px;
+}
+
+.img_overlay:hover {
+  opacity: 1;
+}
+
+/*CONTACT SECTION*/
+.section2 {
+  display: inline;
+  margin: 6rem 4rem 6rem 4rem;
+  padding: 0 3rem;
+  justify-content: center;
+}
+
+/*
+.form {
+  margin: 6rem 0 6rem 0;
+  padding: 0;
+}
+
+.form-control {
+  width: 50rem;
+  height: auto;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-control:hover {
+  border-bottom: 1px solid #8bb336;
+}
+
+.escondido {
+  display: none;
+}
+
+#reCaptchaLogo {
+  z-index: -1;
+}
+
+.submit {
+  background: #8bb336;
+  border-color: transparent;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 60px;
+  width: 240px;
+  padding: auto;
+  border-radius: 80px; /*defines button form like a bean/circular-rectangle/
+}
+
+.submit:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}*/
+
+.hubspot{
+  max-width: 60%;
+  margin: auto;
+}
+
+/*FOOTER*/
+
+footer {
+  text-align: center;
+  background: #1d2020;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+}
+
+footer a {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 1rem 1rem 1rem;
+  margin: 0.8rem 1rem 0 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+i.contact-icon {
+  font-size: 1.5rem;
+  color: #8bb336;
+  float: center;
+}
+
+i.contact-icon:hover {
+  color: #fff;
+}
+
+.copyright {
+  float: center;
+  color: #fff;
+  padding: 0.5rem 0;
+  margin: 1% 3%;
+  font-size: 0.8rem;
+}
+
+.copyright:hover {
+  color: #8bb336;
+}
+
+/*TO TOP BUTTON*/
+.top {
+  display: none;
+  bottom: 0;
+  right: 0;
+  background: #8bb336;
+  color: #fff;
+  padding: 18px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  position: fixed;
+  line-height: 1.5rem;
+  margin: 1rem;
+  z-index: 0;
+}
+
+.top:hover {
+  background: #fff;
+  color: #8bb336;
+  border: solid 2px #8bb336;
+}
